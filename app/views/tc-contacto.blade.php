@@ -9,17 +9,10 @@
 	</div>
 
 	<div class="row">
-	    <div class="col-md-6">
-    		<div class="col-info">
-		        <div class="textocolumnaizquierda">
-		            <h3>Representación exclusiva</h3>
-		            <p>PRAXIS INTERNATIONAL ART <br> <a href="http://www.praxis-art.com">www.praxis-art.com</a></p>
-		        </div>
-		    </div>
-	    </div>
 
 	    <div class="col-md-6">
     		<div class="col-form">
+    			<h4 style="margin: 0 0 20px; font-weight:normal">Comunicate conmigo:</h4>
 		        <div class="formulario">
 		            {{Form::open(array('url' => 'consulta', 'class' => 'contact_form'))}}
 		                <div>  
@@ -45,6 +38,15 @@
 		                    </ul>  
 		                </div>  
 		            {{Form::close()}}
+		        </div>
+		    </div>
+	    </div>
+
+	    <div class="col-md-6">
+    		<div class="col-info">
+		        <div class="textocolumnaizquierda">
+		            <h3>Representación exclusiva</h3>
+		            <p>PRAXIS INTERNATIONAL ART <br> <a href="http://www.praxis-art.com">www.praxis-art.com</a></p>
 		        </div>
 		    </div>
 	    </div>
